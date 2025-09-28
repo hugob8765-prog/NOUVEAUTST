@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Hugz Visuals</title>
+  <meta name="description" content="Conseils, coulisses et inspirations par Hugz Visuals. Découvrez des articles sur la vidéo, la photographie, la production et le storytelling visuel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Hugz Visuals</a>
+      <button class="mobile-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span class="material-symbols-outlined">≡</span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="btn">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="blog-hero">
+      <div class="hero-content">
+        <span class="badge">Le journal des images</span>
+        <h1>Inspirations, coulisses & conseils de production</h1>
+        <p>Plongez dans mes carnets de tournage, découvrez mes astuces pour préparer votre séance et apprenez à raconter une histoire visuelle puissante.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn">Discuter d’un projet</a>
+          <a href="#articles" class="btn secondary">Explorer les articles</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="articles">
+      <div class="main-wrapper">
+        <nav aria-label="Fil d’Ariane" class="breadcrumbs">
+          <a href="index.html">Accueil</a>
+          <span>/</span>
+          <span>Blog</span>
+        </nav>
+        <div class="split-section large-gap">
+          <div>
+            <h2>Derniers articles</h2>
+            <p class="section-intro">Une sélection d’articles pour vous guider à travers la préparation, le tournage et la diffusion de vos contenus visuels.</p>
+            <div class="blog-list">
+              <article class="blog-card fade-in">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=70" alt="Plan de tournage de nuit" loading="lazy" />
+                <div class="content">
+                  <span class="meta">Production • 5 min</span>
+                  <h3><a href="blog-post.html">Comment préparer un tournage nocturne inoubliable</a></h3>
+                  <p>Repérage, éclairages, rythme de tournage : je partage ma méthode pour capturer l’âme de la nuit sans sacrifier la qualité.</p>
+                  <a href="blog-post.html" class="more">Lire l’article</a>
+                </div>
+              </article>
+
+              <article class="blog-card fade-in">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70" alt="Portrait lifestyle lumineux" loading="lazy" />
+                <div class="content">
+                  <span class="meta">Photographie • 4 min</span>
+                  <h3><a href="blog-post.html">5 astuces pour une séance lifestyle naturelle</a></h3>
+                  <p>De la préparation du lieu aux micro-mouvements, découvrez comment je crée des séances photo fluides et authentiques.</p>
+                  <a href="blog-post.html" class="more">Lire l’article</a>
+                </div>
+              </article>
+
+              <article class="blog-card fade-in">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1200&q=70" alt="Paysage méditerranéen" loading="lazy" />
+                <div class="content">
+                  <span class="meta">Inspiration • 6 min</span>
+                  <h3><a href="blog-post.html">Mes spots préférés au lever du soleil en Provence</a></h3>
+                  <p>Un tour d’horizon des lieux qui m’inspirent pour capter la lumière dorée et la douceur méditerranéenne.</p>
+                  <a href="blog-post.html" class="more">Lire l’article</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <aside class="card reveal">
+            <h3>Thématiques populaires</h3>
+            <ul>
+              <li><a href="#">Préparer son mariage</a></li>
+              <li><a href="#">Conseils entrepreneurs</a></li>
+              <li><a href="#">Équipement & gear</a></li>
+              <li><a href="#">Post-production</a></li>
+            </ul>
+            <div class="cta-wrap">
+              <a href="contact.html" class="btn">Proposer un sujet</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="main-wrapper">
+        <h2>S’inscrire à la lettre créative</h2>
+        <div class="cta-banner fade-in">
+          <p>Recevez chaque mois des idées de tournage, des presets exclusifs et les coulisses de mes productions.</p>
+          <form class="tablet-stacked" data-form="newsletter">
+            <label for="newsletter-email" class="sr-only">Adresse e-mail</label>
+            <input type="email" id="newsletter-email" name="email" placeholder="Votre e-mail" required />
+            <button type="submit" class="btn">Je m’inscris</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer-top">
+        <div>
+          <h4>Hugz Visuals</h4>
+          <p>Vidéaste & photographe basé à Marseille. Disponible dans toute la région Sud & au-delà.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="mailto:hello@hugzvisuals.com">hello@hugzvisuals.com</a></p>
+          <p><a href="tel:+33600000000">+33 6 00 00 00 00</a></p>
+        </div>
+        <div>
+          <h4>Suivre</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Vimeo">VI</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2024</span> Hugz Visuals. Tous droits réservés.</span>
+        <a href="mailto:hello@hugzvisuals.com">Parler du prochain projet</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
